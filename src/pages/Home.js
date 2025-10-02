@@ -24,15 +24,19 @@ function Home() {
   return (
     <>
     <Slider/>
-    <section class="py-20 bg-gray-100">
-  <div class="container mx-auto px-4">
-    <h2 class="text-3xl text-center font-semibold text-red-400">Latest Users</h2>
+    <section className="py-20 bg-gray-100">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl text-center font-semibold text-[#3a4920]">Some Users</h2>
 
-    <div id="latest-users" class="flex flex-wrap justify-center gap-6 my-6">
-    {users && users.map(user => <Card key={user.id}{...user} />)}
+    <div id="latest-users" className="flex flex-wrap justify-center gap-6 my-6">
+    {users && users.map(user => (
+      <div key={user.id} className="w-96">
+      <Card {...user} />
+      </div>)
+      )}
     </div>
 
-    <Link class="w-48 block mx-auto text-center py-2 border border-red-400 text-red-400 font-semibold rounded hover:bg-red-400 hover:text-white transition" to="/users">
+    <Link className="w-48 block mx-auto text-center py-2 border border-[#3a4920] text-[#3a4920] font-semibold rounded hover:bg-[#3a4920] hover:text-white transition" to="/users">
       See more <i class="fa-solid fa-arrow-right"></i>
     </Link>
   </div>
