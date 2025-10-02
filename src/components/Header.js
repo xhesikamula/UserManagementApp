@@ -23,7 +23,7 @@ function Header() {
         <nav
           className={`${
             menuOpen ? "flex" : "hidden"
-          } flex-col sm:flex sm:flex-row gap-4 absolute sm:static top-24 left-0 w-full sm:w-auto bg-slate-200 sm:bg-transparent p-4 sm:p-0`}
+          } flex-col sm:flex sm:flex-row gap-4 absolute sm:static top-24 left-0 w-full sm:w-auto bg-[#dce7c9] sm:bg-transparent p-4 sm:p-0 z-50`}
         >
           <Link to="/" className="hover:text-[#3a4920]" onClick={() => setMenuOpen(false)}>
             Home
