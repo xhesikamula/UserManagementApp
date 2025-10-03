@@ -57,7 +57,7 @@ npm start
 - 💾 Local users are stored in localStorage and persist until manually cleared.  
 
 ---
-** 🌐 Live Preview:** [xhesis-usermanagementapp.netlify.app](https://xhesis-usermanagementapp.netlify.app)
+**🌐 Live Preview:** [xhesis-usermanagementapp.netlify.app](https://xhesis-usermanagementapp.netlify.app)
 ---
 ## 👤 Author
 **Xhesika Mula**
