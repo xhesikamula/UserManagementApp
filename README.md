@@ -48,18 +48,17 @@ npm install
 # Run the development server
 npm start
 
-App will be running at: http://localhost:3000
 ```
 ---
 
 ## ⚡ Notes
 
--  It may take a few seconds for API users to load.  
--  Local users are stored in localStorage and persist until manually cleared.  
--  API: [JSONPlaceholder](https://jsonplaceholder.typicode.com/users)  
+- ⏳ It may take a few seconds for API users to load.  
+- 💾 Local users are stored in localStorage and persist until manually cleared.  
 
 ---
-**Live Preview:** [xhesis-usermanagementapp.netlify.app](https://xhesis-usermanagementapp.netlify.app)
+** 🌐 Live Preview:** [xhesis-usermanagementapp.netlify.app](https://xhesis-usermanagementapp.netlify.app)
 ---
-## Author
-Xhesika Mula
+## 👤 Author
+**Xhesika Mula**
+
