@@ -49,7 +49,7 @@ npm install
 npm start
 
 App will be running at: http://localhost:3000
-
+```
 ---
 
 ## ⚡ Notes
