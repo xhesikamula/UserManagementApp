@@ -54,7 +54,7 @@ function UserDetails() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-6 font-serif">
       <div className="bg-white rounded-lg shadow-lg p-8 max-w-2xl w-full">
-        <h1 className="text-3xl font-bold text-[#3a4920] mb-8 border-b-2 border-gray-200 pb-2">
+        <h1 className="text-3xl font-bold text-[#000919] mb-8 border-b-2 border-gray-200 pb-2">
           User Profile
         </h1>
 

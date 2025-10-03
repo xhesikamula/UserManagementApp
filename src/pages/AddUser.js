@@ -109,7 +109,7 @@ const handleSubmit = (e) => {
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-6 font-serif">
       <div className="bg-white rounded-lg shadow-lg p-8 max-w-2xl w-full">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-3xl font-bold text-[#3a4920] border-b-2 border-gray-200 pb-2">
+          <h1 className="text-3xl font-bold text-[#000919] border-b-2 border-gray-200 pb-2">
             Add New User
           </h1>
           <Link
@@ -122,7 +122,7 @@ const handleSubmit = (e) => {
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="border-b border-gray-200 pb-4">
-            <h2 className="text-xl font-semibold text-[#3a4920] mb-4">Personal Information</h2>
+            <h2 className="text-xl font-semibold text-[#000919] mb-4">Personal Information</h2>
             <div className="space-y-4">
               <div>
                 <label className="block text-gray-600 font-medium mb-1" htmlFor="name">
@@ -182,7 +182,7 @@ const handleSubmit = (e) => {
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold text-[#3a4920] mb-4">Address</h2>
+            <h2 className="text-xl font-semibold text-[#000919] mb-4">Address</h2>
             <div className="space-y-4">
               <div>
                 <label className="block text-gray-600 font-medium mb-1" htmlFor="address.street">
@@ -269,7 +269,7 @@ const handleSubmit = (e) => {
 
           <button
             type="submit"
-            className="w-full bg-[#3a4920] text-white font-semibold py-2 rounded-md hover:bg-[#2d3818] transition"
+            className="w-full bg-gray-600 text-white font-semibold py-2 rounded-md hover:bg-[#000919] transition"
           >
             Add User
           </button>
@@ -277,7 +277,7 @@ const handleSubmit = (e) => {
 
         {users.length > 0 && (
           <div className="mt-8">
-            <h2 className="text-xl font-semibold text-[#3a4920] mb-4">Added Users</h2>
+            <h2 className="text-xl font-semibold text-[#000919] mb-4">Added Users</h2>
             <ul className="space-y-4">
               {users.map((user) => (
                 <li key={user.id} className="border border-gray-200 rounded-md p-4">
